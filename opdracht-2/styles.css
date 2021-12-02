@@ -2,4 +2,72 @@
    OEFENEN MET FLEXBOX
 ========================================================= */
 
-/* Schrijf hier  jouw CSS! */
+/* Opdracht 2.1 */
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.one p, h3 {
+    margin: 15px 5px 15px 5px;
+}
+
+/* Opdracht 2.2 */
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 100px;
+}
+
+/* Opdracht 2.3 */
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: beige;
+}
+
+.three ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-evenly;
+    flex-basis: 300px;
+}
+
+/* Opdracht 2.4 */
+form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Opdracht 2.5 */
+.five {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+article {
+    background-color: khaki;
+    flex-basis: 400px;
+    display: inline-block;
+    box-sizing: border-box;
+    flex-grow: 1;
+
+}
+
+article-3 {
+    flex-grow: 2;
+}
